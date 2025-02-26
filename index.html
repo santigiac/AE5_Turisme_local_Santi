@@ -5,27 +5,96 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Turismo en Japón</title>
     <link rel="stylesheet" href="estilos.css">
+    
 </head>
 <body>
-    <main class="container">
-        <header class="header">Turismo en Japón</header>
-        
-        <section class="main-content">
-            <div class="left">
-                <div class="info">Kioto: Templos y Santuarios</div>
-                <div class="info">Tokio: Modernidad y Tecnología</div>
-                <div class="info">Nara: Ciervos y Cultura</div>
-            </div>
+    <header>
+        <h1>Turismo en Japón</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#galeria">Galería</a></li>
+            <li><a href="#lugares">Lugares de interés</a></li>
+            <li><a href="#mapa">Mapa</a></li>
+            <li><a href="#noticias">Últimas noticias</a></li>
+        </ul>
+    </nav>
+    
+    <div class="container">
+        <main>
+            <section id="galeria">
+                <h2>Galería de imágenes</h2>
+                <div class="imagenes">
+                    <img src="Fotos/foto1.png" alt="Imagen 1">
+                    <img src="Fotos/foto2.png" alt="Imagen 2">
+                    <img src="Fotos/foto3.png" alt="Imagen 3">
+                </div>
+            </section>
             
-            <aside class="sidebar">
-                <div class="box">Gastronomía</div>
-                <div class="box">Transporte</div>
-                <div class="box small">Festivales</div>
-                <div class="box small">Montañas</div>
-            </aside>
-        </section>
-        
-        <footer class="footer">Descubre más sobre Japón</footer>
-    </main>
+            <section id="lugares">
+                <h2>Lugares de interés</h2>
+                <div class="fichas">
+                    <div class="ficha">
+                        <img src="Fotos/japon-tokio7.jpg" alt="Tokio">
+                        <h3>Tokio</h3>
+                        <p>La capital de Japón, una mezcla de modernidad y tradición.</p>
+                        <p><strong>Ubicación:</strong> Región de Kanto</p>
+                    </div>
+                    <div class="ficha">
+                        <img src="Fotos/foto6.png" alt="Kioto">
+                        <h3>Kioto</h3>
+                        <p>Famosa por sus templos históricos y jardines tradicionales.</p>
+                        <p><strong>Ubicación:</strong> Región de Kansai</p>
+                    </div>
+                    <div class="ficha">
+                        <img src="Fotos/foto5.png" alt="Monte Fuji">
+                        <h3>Monte Fuji</h3>
+                        <p>El pico más alto de Japón, un símbolo icónico del país.</p>
+                        <p><strong>Ubicación:</strong> Región de Chubu</p>
+                    </div>
+                    <div class="ficha">
+                        <img src="Fotos/foto4.png" alt="Osaka">
+                        <h3>Osaka</h3>
+                        <p>Conocida por su comida callejera y su castillo histórico.</p>
+                        <p><strong>Ubicación:</strong> Región de Kansai</p>
+                    </div>
+                </div>
+            </section>
+            
+            <section id="mapa">
+                <h2>Mapa de Japón</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13245756.107967544!2d134.48956045!3d35.50447565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34674e0fd77f192f%3A0xf54275d47c665244!2zSmFww7Nu!5e0!3m2!1ses!2ses!4v1633023226789!5m2!1ses!2ses" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </section>
+        </main>
+
+        <aside id="noticias">
+            <h2>Últimas noticias</h2>
+            <div class="noticia">
+                <h3>Festival de las Cerezas en Kioto</h3>
+                <p>El famoso festival de las cerezas en flor atrae a miles de turistas cada año. Este año, se espera un récord de visitantes.</p>
+            </div>
+            <div class="noticia">
+                <h3>Nuevo tren bala en Osaka</h3>
+                <p>Se ha inaugurado una nueva línea de tren bala que conecta Osaka con otras ciudades importantes en tiempo récord.</p>
+            </div>
+            <div class="noticia">
+                <h3> Corea del Norte lanza un misil balístico hacia el mar de Japón</h3>
+                <p>El Ministerio de Defensa japonés ha detectado un nuevo lanzamiento de misil por parte de Corea del Norte, que habría caído en aguas fuera del espacio económico exclusivo japonés..</p>
+            </div>
+            <div class="noticia">
+                <h3> Iberia inaugura vuelos directos a Tokio</h3>
+                <p>La aerolínea española Iberia ha iniciado una nueva ruta que conecta Madrid con Tokio, ofreciendo la única opción de vuelo sin escalas entre España y Japón.</p>
+            </div>
+            <div class="noticia">
+                <h3>Crean el primer fármaco que permite regenerar los dientes</h3>
+                <p>Científicos japoneses han desarrollado un medicamento que facilita la regeneración dental, representando un avance significativo en la medicina dental.</p>
+            </div>
+        </aside>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Turismo en Japón. Todos los derechos reservados.</p>
+    </footer>
 </body>
 </html>
